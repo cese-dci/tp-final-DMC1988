@@ -1,9 +1,9 @@
 ## Trabajo práctico final de la asignatura DCI ##
 Este repositorio contiene el trabajo práctico final para la asignatura de Diseño de Circuitos Impresos de la carrera de posgrado de FIUBA.
 
-* Autor: XXXXCOMPLETARXXXX
-* Título corto del trabajo:  XXXXCOMPLETARXXXX
-* Descripción:  XXXXCOMPLETARXXXX
+* Autor: Damián Caputo
+* Título corto del trabajo:  Replica driver puente H L298
+* Descripción:  Diseño de esquemático y PCB del modulo puente H L298.
 
 
 ## Licencia de este trabajo ##
