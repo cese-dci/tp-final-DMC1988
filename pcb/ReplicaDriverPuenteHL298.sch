@@ -167,8 +167,6 @@ F 3 "" H 5350 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5350 2050 5350 2250
-Wire Wire Line
 	5350 2250 5500 2250
 Wire Wire Line
 	5500 2250 5500 2400
@@ -185,8 +183,6 @@ F 3 "" H 5750 2050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5600 2250 5750 2250
-Wire Wire Line
-	5750 2250 5750 2050
 Wire Wire Line
 	6500 2700 6500 2900
 Wire Wire Line
@@ -491,7 +487,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 5150 5950 5050
 Wire Wire Line
-	5350 4900 5350 5150
+	5350 4900 5350 5050
 Wire Wire Line
 	7000 3950 7250 3950
 Wire Wire Line
@@ -686,14 +682,8 @@ Text Notes 9325 5575 0    50   ~ 0
 (1) Ancho mínimo 2,1 mm. Ver calculadora.
 Wire Notes Line
 	9325 5450 11000 5450
-Wire Notes Line
-	5075 2325 4975 2325
-Wire Notes Line
-	4975 2325 4800 2150
-Text Notes 4375 2150 0    50   ~ 0
+Text Notes 4075 2150 0    50   ~ 0
 Ver nota 4
-Wire Notes Line
-	4375 2150 4800 2150
 Text Notes 9325 5800 0    50   ~ 0
 (2) Disipador sobre el PCB en capa TOP y \n    BOTTOM conectados por vias.\n
 Text Notes 9325 5925 0    50   ~ 0
@@ -755,4 +745,44 @@ F 3 "~" H 8775 1375 50  0001 C CNN
 $EndComp
 Text Notes 8700 675  0    50   ~ 0
 Fiduciales
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 614C829F
+P 4900 3950
+F 0 "#FLG0101" H 4900 4025 50  0001 C CNN
+F 1 "PWR_FLAG" V 4900 4077 50  0000 L CNN
+F 2 "" H 4900 3950 50  0001 C CNN
+F 3 "~" H 4900 3950 50  0001 C CNN
+	1    4900 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4900 3950 5200 3950
+Connection ~ 5200 3950
+Wire Notes Line
+	4125 2150 4450 2150
+Wire Notes Line
+	4450 2150 4575 2325
+Wire Notes Line
+	4575 2325 5075 2325
+Wire Wire Line
+	5750 2050 5750 2250
+Wire Wire Line
+	5350 2050 5350 2250
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 614DD764
+P 5175 5050
+F 0 "#FLG0102" H 5175 5125 50  0001 C CNN
+F 1 "PWR_FLAG" V 5175 5177 50  0000 L CNN
+F 2 "" H 5175 5050 50  0001 C CNN
+F 3 "~" H 5175 5050 50  0001 C CNN
+	1    5175 5050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5175 5050 5350 5050
+Connection ~ 5350 5050
+Wire Wire Line
+	5350 5050 5350 5150
 $EndSCHEMATC
