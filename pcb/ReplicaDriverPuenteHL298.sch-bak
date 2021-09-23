@@ -8,7 +8,7 @@ Title "ReplicaDriverPuenteHL298"
 Date "2021-09-16"
 Rev ""
 Comp ""
-Comment1 ""
+Comment1 "Diseño bajo licencia CERN-OHL-P."
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -753,4 +753,6 @@ F 3 "~" H 8775 1375 50  0001 C CNN
 	1    8775 1375
 	1    0    0    -1  
 $EndComp
+Text Notes 8700 675  0    50   ~ 0
+Fiduciales
 $EndSCHEMATC
