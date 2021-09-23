@@ -7,10 +7,7 @@ Este repositorio contiene el trabajo práctico final para la asignatura de Dise�
 
 
 ## Licencia de este trabajo ##
-XXXMENCIONAR ACÁ LA LICENCIAXXX (Editar este párrafo) 
-Y además colcar el archivo de texto de la misma en el directorio raíz.
-Para este TP se pide que la licencia sea de hardware abierto.
-Ver la sección "What license should I use?": https://www.oshwa.org/faq/
+Diseño bajo licencia CERN-OHL-P.
 
 ## Estructura del TP FINAL ##
 
