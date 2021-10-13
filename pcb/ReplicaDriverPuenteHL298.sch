@@ -6,10 +6,10 @@ encoding utf-8
 Sheet 1 1
 Title "ReplicaDriverPuenteHL298"
 Date "2021-09-16"
-Rev ""
+Rev "1.0"
 Comp ""
 Comment1 "Diseño bajo licencia CERN-OHL-P."
-Comment2 ""
+Comment2 "Autor: Damián Caputo"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -53,7 +53,7 @@ P 8700 3200
 F 0 "J3" H 8780 3192 50  0000 L CNN
 F 1 "Conn_01x02" H 8780 3101 50  0000 L CNN
 F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 8700 3200 50  0001 C CNN
-F 3 "~" H 8700 3200 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M55p58.pdf" H 8700 3200 50  0001 C CNN
 	1    8700 3200
 	1    0    0    -1  
 $EndComp
@@ -152,7 +152,7 @@ $EndComp
 Wire Wire Line
 	5200 3800 5200 3950
 Wire Wire Line
-	5200 3950 5500 3950
+	5200 3950 5300 3950
 Wire Wire Line
 	5500 3950 5500 4100
 $Comp
@@ -372,7 +372,7 @@ P 4100 5500
 F 0 "C1" H 4218 5546 50  0000 L CNN
 F 1 "220uF/35V" H 4218 5455 50  0000 L CNN
 F 2 "Capacitors_SMD:CP_Elec_6.3x5.8" H 4138 5350 50  0001 C CNN
-F 3 "~" H 4100 5500 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28433/182cphz.pdf" H 4100 5500 50  0001 C CNN
 	1    4100 5500
 	1    0    0    -1  
 $EndComp
@@ -409,7 +409,7 @@ P 8700 2900
 F 0 "J2" H 8780 2892 50  0000 L CNN
 F 1 "Conn_01x02" H 8780 2801 50  0000 L CNN
 F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 8700 2900 50  0001 C CNN
-F 3 "~" H 8700 2900 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M55p58.pdf" H 8700 2900 50  0001 C CNN
 	1    8700 2900
 	1    0    0    -1  
 $EndComp
@@ -475,19 +475,16 @@ P 7300 5650
 F 0 "C2" H 7050 5700 50  0000 L CNN
 F 1 "220uF/35V" H 6750 5600 50  0000 L CNN
 F 2 "Capacitors_SMD:CP_Elec_6.3x5.8" H 7338 5500 50  0001 C CNN
-F 3 "~" H 7300 5650 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28433/182cphz.pdf" H 7300 5650 50  0001 C CNN
 	1    7300 5650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5300 3800
 Wire Wire Line
 	5600 2400 5600 2250
 Wire Wire Line
-	5950 5150 6300 5150
+	5950 5150 6025 5150
 Wire Wire Line
 	5950 5150 5950 5050
-Wire Wire Line
-	5350 4900 5350 5050
 Wire Wire Line
 	7000 3950 7250 3950
 Wire Wire Line
@@ -514,7 +511,7 @@ P 6500 2550
 F 0 "D1" V 6454 2630 50  0000 L CNN
 F 1 "1N4007" V 6545 2630 50  0000 L CNN
 F 2 "Diodes_SMD:D_SMA" H 6500 2550 50  0001 C CNN
-F 3 "~" H 6500 2550 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2856370.pdf" H 6500 2550 50  0001 C CNN
 	1    6500 2550
 	0    1    1    0   
 $EndComp
@@ -525,7 +522,7 @@ P 7000 2550
 F 0 "D2" V 6954 2630 50  0000 L CNN
 F 1 "1N4007" V 7045 2630 50  0000 L CNN
 F 2 "Diodes_SMD:D_SMA" H 7000 2550 50  0001 C CNN
-F 3 "~" H 7000 2550 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2856370.pdf" H 7000 2550 50  0001 C CNN
 	1    7000 2550
 	0    1    1    0   
 $EndComp
@@ -536,7 +533,7 @@ P 7500 2550
 F 0 "D3" V 7454 2630 50  0000 L CNN
 F 1 "1N4007" V 7545 2630 50  0000 L CNN
 F 2 "Diodes_SMD:D_SMA" H 7500 2550 50  0001 C CNN
-F 3 "~" H 7500 2550 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2856370.pdf" H 7500 2550 50  0001 C CNN
 	1    7500 2550
 	0    1    1    0   
 $EndComp
@@ -547,7 +544,7 @@ P 8000 2550
 F 0 "D4" V 7954 2630 50  0000 L CNN
 F 1 "1N4007" V 8045 2630 50  0000 L CNN
 F 2 "Diodes_SMD:D_SMA" H 8000 2550 50  0001 C CNN
-F 3 "~" H 8000 2550 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2856370.pdf" H 8000 2550 50  0001 C CNN
 	1    8000 2550
 	0    1    1    0   
 $EndComp
@@ -558,7 +555,7 @@ P 6500 3650
 F 0 "D5" V 6454 3730 50  0000 L CNN
 F 1 "1N4007" V 6545 3730 50  0000 L CNN
 F 2 "Diodes_SMD:D_SMA" H 6500 3650 50  0001 C CNN
-F 3 "~" H 6500 3650 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2856370.pdf" H 6500 3650 50  0001 C CNN
 	1    6500 3650
 	0    1    1    0   
 $EndComp
@@ -569,7 +566,7 @@ P 7000 3650
 F 0 "D6" V 6954 3730 50  0000 L CNN
 F 1 "1N4007" V 7045 3730 50  0000 L CNN
 F 2 "Diodes_SMD:D_SMA" H 7000 3650 50  0001 C CNN
-F 3 "~" H 7000 3650 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2856370.pdf" H 7000 3650 50  0001 C CNN
 	1    7000 3650
 	0    1    1    0   
 $EndComp
@@ -580,7 +577,7 @@ P 7500 3650
 F 0 "D7" V 7454 3730 50  0000 L CNN
 F 1 "1N4007" V 7545 3730 50  0000 L CNN
 F 2 "Diodes_SMD:D_SMA" H 7500 3650 50  0001 C CNN
-F 3 "~" H 7500 3650 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2856370.pdf" H 7500 3650 50  0001 C CNN
 	1    7500 3650
 	0    1    1    0   
 $EndComp
@@ -591,7 +588,7 @@ P 8000 3650
 F 0 "D8" V 7954 3730 50  0000 L CNN
 F 1 "1N4007" V 8045 3730 50  0000 L CNN
 F 2 "Diodes_SMD:D_SMA" H 8000 3650 50  0001 C CNN
-F 3 "~" H 8000 3650 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2856370.pdf" H 8000 3650 50  0001 C CNN
 	1    8000 3650
 	0    1    1    0   
 $EndComp
@@ -609,7 +606,7 @@ $EndComp
 Wire Wire Line
 	3550 5200 3850 5200
 Wire Wire Line
-	3850 5200 3850 5700
+	3850 5200 3850 5650
 Wire Wire Line
 	3775 4850 3775 5100
 $Comp
@@ -691,7 +688,7 @@ Text Notes 9325 5925 0    50   ~ 0
 Text Notes 9325 6075 0    50   ~ 0
 (4) Lleva disipador. Ver calculos.
 Wire Wire Line
-	4100 4850 4100 5300
+	4100 4850 4100 4925
 Wire Wire Line
 	3550 5100 3775 5100
 Wire Wire Line
@@ -702,12 +699,12 @@ Wire Wire Line
 $Comp
 L Mechanical:Heatsink HS1
 U 1 1 61518FE3
-P 6975 4900
-F 0 "HS1" H 7117 5021 50  0000 L CNN
-F 1 "Heatsink" H 7117 4930 50  0000 L CNN
-F 2 "" H 6987 4900 50  0001 C CNN
-F 3 "~" H 6987 4900 50  0001 C CNN
-	1    6975 4900
+P 6050 2175
+F 0 "HS1" H 6192 2296 50  0000 L CNN
+F 1 "Heatsink" H 6192 2205 50  0000 L CNN
+F 2 "" H 6062 2175 50  0001 C CNN
+F 3 "~" H 6062 2175 50  0001 C CNN
+	1    6050 2175
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -748,17 +745,14 @@ Fiduciales
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 614C829F
-P 4900 3950
-F 0 "#FLG0101" H 4900 4025 50  0001 C CNN
-F 1 "PWR_FLAG" V 4900 4077 50  0000 L CNN
-F 2 "" H 4900 3950 50  0001 C CNN
-F 3 "~" H 4900 3950 50  0001 C CNN
-	1    4900 3950
+P 3675 5650
+F 0 "#FLG0101" H 3675 5725 50  0001 C CNN
+F 1 "PWR_FLAG" V 3675 5777 50  0000 L CNN
+F 2 "" H 3675 5650 50  0001 C CNN
+F 3 "~" H 3675 5650 50  0001 C CNN
+	1    3675 5650
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4900 3950 5200 3950
-Connection ~ 5200 3950
 Wire Notes Line
 	4125 2150 4450 2150
 Wire Notes Line
@@ -772,17 +766,45 @@ Wire Wire Line
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 614DD764
-P 5175 5050
-F 0 "#FLG0102" H 5175 5125 50  0001 C CNN
-F 1 "PWR_FLAG" V 5175 5177 50  0000 L CNN
-F 2 "" H 5175 5050 50  0001 C CNN
-F 3 "~" H 5175 5050 50  0001 C CNN
-	1    5175 5050
-	0    -1   -1   0   
+P 4325 4925
+F 0 "#FLG0102" H 4325 5000 50  0001 C CNN
+F 1 "PWR_FLAG" V 4325 5052 50  0000 L CNN
+F 2 "" H 4325 4925 50  0001 C CNN
+F 3 "~" H 4325 4925 50  0001 C CNN
+	1    4325 4925
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	5175 5050 5350 5050
-Connection ~ 5350 5050
+	5300 3800 5300 3950
+Connection ~ 5300 3950
 Wire Wire Line
-	5350 5050 5350 5150
+	5300 3950 5500 3950
+Wire Wire Line
+	5350 4900 5350 5150
+Wire Wire Line
+	4325 4925 4100 4925
+Connection ~ 4100 4925
+Wire Wire Line
+	4100 4925 4100 5300
+Wire Wire Line
+	3675 5650 3850 5650
+Connection ~ 3850 5650
+Wire Wire Line
+	3850 5650 3850 5700
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 614E58D5
+P 6025 5375
+F 0 "#FLG0103" H 6025 5450 50  0001 C CNN
+F 1 "PWR_FLAG" V 6025 5502 50  0000 L CNN
+F 2 "" H 6025 5375 50  0001 C CNN
+F 3 "~" H 6025 5375 50  0001 C CNN
+	1    6025 5375
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6025 5375 6025 5150
+Connection ~ 6025 5150
+Wire Wire Line
+	6025 5150 6300 5150
 $EndSCHEMATC
